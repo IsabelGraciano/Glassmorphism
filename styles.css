@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: nw;
+    src: url(NWT75.TTF);
+}
+
+main {
+    min-height: 100vh;
+    background: linear-gradient(to right top, #fec1be, #fecfd9, #f9adf5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glass {
+    background: white;
+    min-height: 60vh;
+    width: 60%;
+    border-radius: 4rem;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.2));
+    z-index: 2;
+}
+
+.circle1 {
+    background: white;
+    background: linear-gradient(to left top, rgb(255, 105, 250), rgb(255, 152, 243), rgba(255, 224, 252));
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.circle2 {
+    background: white;
+    background: linear-gradient(to left top, rgba(238, 148, 235), rgba(249, 182, 241), rgba(255, 224, 252));
+    height: 14rem;
+    width: 14rem;
+    position: absolute;
+    top: 8%;
+    right: 13%;
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.circle3 {
+    background: white;
+    background: linear-gradient(to left top, rgb(255, 105, 250), rgb(255, 152, 243), rgb(255, 224, 252));
+    height: 11rem;
+    width: 11rem;
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    border-radius: 100%;
+    z-index: 2;
+    backdrop-filter: blur(5px);
+}
+
+.circle4 {
+    background: white;
+    background: linear-gradient(to left top, rgba(238, 148, 235), rgba(249, 182, 241), rgba(255, 224, 252));
+    height: 8rem;
+    width: 8rem;
+    position: absolute;
+    top: 12%;
+    left: 45%;
+    border-radius: 100%;
+    backdrop-filter: blur(5px);
+}
+
+.personal_info {
+    position: absolute;
+    border-bottom-left-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    background: linear-gradient(to right, #43a2db, #4563f1, #ae00e9);
+    min-height: 30vh;
+    width: 60%;
+    top: 50%;
+}
+
+.text {
+    font-family: nw;
+}
+
+.title {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #e2bcca;
+    font-size: 2rem;
+}
+
+.number {
+    margin-top: 6rem;
+    margin-left: 3rem;
+    letter-spacing: 23px;
+    font-weight: bolder;
+    font-size: 2rem;
+}
+
+.personal_info {
+    color: white;
+}
+
+.expir {
+    margin-top: 20px;
+    margin-left: 3rem;
+}
+
+.date {
+    margin-top: 5px;
+    margin-left: 3rem;
+    font-size: 35px;
+}
+
+.name {
+    margin-left: 3rem;
+    margin-top: 3.5rem;
+    font-size: 2.5rem;
+}
